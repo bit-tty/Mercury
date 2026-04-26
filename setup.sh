@@ -71,6 +71,7 @@ cp -r -v ./toolkit/. ${HG_SRC_DIR}/toolkit/ &&
 cp -r -v ./testing/. ${HG_SRC_DIR}/testing/ &&
 cp -v ./mozconfigs/ga ${HG_SRC_DIR} &&
 cp -v ./mozconfigs/mozconfig ${HG_SRC_DIR} &&
+cp ./app/profile/firefox.js /home/$USER/mozilla-unified/browser/app/profile/firefox.js &&
 
 copyWin () {
 	printf "\n" &&
